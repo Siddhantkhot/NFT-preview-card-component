@@ -1,0 +1,71 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Outfit', sans-serif;
+    font-size:18px;
+}
+body{
+    
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    min-height:100vh;
+    align-items: center;
+    align-content: center;
+
+}
+main{
+  
+    background-color: hsl(216, 50%, 16%);
+    max-width:300px;
+    height: 500px;
+    border-radius:12px;
+    padding:20px;
+    justify-content: center;
+}
+.equie img{
+  width:100%;
+  border-radius: 10px;
+}
+h1{
+    margin-top: 10px;
+    font-size:20px;
+    color:aliceblue;
+    font-weight:600;
+}
+p{
+    margin-top:10px;
+    font-size: 17px;
+    color:hsl(215, 51%, 70%);
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+.equie_text{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: aqua;
+    font-size: 16px;
+}
+strong{
+    color:#fff;
+}
+.avatar{
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 1rem;;
+    align-items: center;
+
+}
+.avatar img{
+    width: 40px;
+    height:40px;
+    border-radius: 100%;
+    border: 2px solid#fff;
+    margin-top: 10px;
+      
+}
